@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Station</title>
+</head>
+<body>
+    <header>
+     <h1 style="text-align:center;">Simple Weather Station</h1>
+     <p style="text-align:center;">Inspired by Center of AI and Robotics(Midnapore College)</p>
+    </header>
+
+   <hr>
+
+   <h2 style="text-align:center;">Temperature Data<h2>
+   <div id="tempgraph" style="text-align:center;">
+    <iframe width="450" height="260" style="border: 1px solid #866060;" src="https://thingspeak.com/channels/2503490/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line"></iframe>
+   </div>
+   <br>
+   <div id="tempdata" style="text-align: center;">
+    <iframe width="450" height="260" style="border: 1px solid #866060;" src="https://thingspeak.com/channels/2503490/widgets/836665"></iframe>
+   </div>
+ 
+   <h2 style="text-align: center;">Humidity Data</h2>
+   <div id="humigraph" style="text-align: center;">
+    <iframe width="450" height="260" style="border: 1px solid #866060;" src="https://thingspeak.com/channels/2503490/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+   </div>
+   <br>
+   <div id="humidata" style="text-align: center;">
+    <iframe width="450" height="260" style="border: 1px solid #866060;" src="https://thingspeak.com/channels/2503490/widgets/836666"></iframe>
+   </div>
+</body>
+</html>
+
+
+
+
+
+
